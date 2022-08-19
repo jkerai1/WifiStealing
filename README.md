@@ -1,7 +1,7 @@
 # WifiStealing
 Wifi Stealer inspired by Manjuska Framework/TCM
 
-
+Wireless will always be inferior 
 :)
 
 
