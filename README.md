@@ -16,6 +16,6 @@ WHID for ESP based duckys
 
 ```
 DeviceProcessEvents
-| where ProcessCommandLine contains "key=clear" //plain-text
 | where FileName == "netsh.exe"
+| where ProcessCommandLine contains "key=clear" //plain-text
 ```
