@@ -11,3 +11,11 @@ for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo 
 
 
 WHID for ESP based duckys
+
+# KQL  
+
+```
+DeviceProcessEvents
+| where ProcessCommandLine contains "key=clear" //plain-text
+| where FileName == "netsh.exe"
+```
